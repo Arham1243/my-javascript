@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) {
+  .form-sidebar {
+    padding: 5rem 0.5rem 1rem;
+    max-width: 100%;
+    height: fit-content;
+    min-height: auto;
+    background-position: bottom;
+  }
+  .form-sidebar__list {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    max-height: 100%;
+  }
+  .form-sidebar__list li .step-info {
+    display: none;
+  }
+  .form-content {
+    padding: 2rem 1rem 1rem;
+  }
+  .service-list:not(.service-list--col) .service-list__single {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem 1.25rem;
+  }
+  .service-list__single .info .desc *,
+  .service-list__single .info li,
+  .section-content p ,.themeBtn{
+    font-size: 0.85rem;
+  }
+  .service-list__single .more {
+    font-size: 0.9rem;
+    margin: 0.25rem 0 0;
+  }
+  .service-list__single .info .title {
+    font-size: 0.85rem;
+  }
+  .service-list__single .avatar {
+    width: 65px;
+  }
+  .section-content .heading {
+    font-size: 1.5rem;
+  }
+  .service__title {
+    font-size: 0.9rem;
+  }
+  .react-calendar {
+    width: 100%;
+  }
+  button.react-calendar__tile.react-calendar__month-view__days__day {
+    border-radius: 0;
+    font-size: 1.1rem;
+  }
+  button.react-calendar__navigation__arrow {
+    font-size: 1.1rem;
+}
+.details-box li {
+    flex-direction: column;
+    align-items: flex-start;
+}
+}
